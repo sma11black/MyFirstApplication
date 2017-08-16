@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="net.smallblack.myfirstapplication">
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="15" />
 
     <application
         android:allowBackup="true"
@@ -17,6 +18,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayMessageActivity"></activity>
+
+        <!--<activity android:theme="@android:style/Theme.Dialog"></activity>-->
+        <!--<activity android:theme="@android:style/Theme.Translucent"></activity>-->
+
+        <!--custom theme defined in /res/values/styles.xml-->
+        <!--<activity android:theme="@style/CustomTheme"></activity>-->
     </application>
 
 </manifest>

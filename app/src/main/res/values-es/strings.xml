@@ -3,4 +3,6 @@
     <string name="app_name">My First Application</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="title">Mi Aplicación</string>
+    <string name="hello_world">Hola Mundo!</string>
 </resources>
